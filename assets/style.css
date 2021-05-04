@@ -1,0 +1,172 @@
+
+:root {
+    --primary: rgb(63, 171, 185); 
+    --secondary: rgb(0, 0, 0);
+    --tertiary: rgba(128, 128, 128, 0.644);
+    --fourth: rgb(255, 255, 255);
+    --red: rgb(146, 28, 28);
+    --backgroundboxes: rgb(207, 104, 7);
+
+
+}
+
+body{
+    background-color: var(--tertiary);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(./img/borderimage.jpeg);
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,11,142,1) 27%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header h1 {
+    background-color: var(--primary);
+    font-weight: 500;
+    font-size: 100px;
+    color:  var(--red);
+    margin-left: 10% ;
+    padding: 1%;  
+    text-align: center; 
+    lex: 0 0 78%;   
+}
+
+header nav {
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--secondary);
+    margin-top: 5px ;
+    padding: 1%; 
+    background-color: var(--secondary);
+    justify-content: center;
+    
+
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+.background-wrap{
+    background-image: url(./img/backgroundsection.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+
+.background-wrap div {
+    margin: 30px;
+    padding: 5px 10px;
+    font-size: 50px;;
+    line-height: 1.2;
+    display: inline;
+    background-color: var(--tertiary);
+
+}
+
+.mainbox{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--fourth);
+    margin-top: 0px;
+    margin-bottom: 45px;
+  
+}
+
+.pagesection{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 400px;
+  align-items: center;
+  margin: 0 1% 0 2%
+}
+.page-section > h2 {
+    flex: 1 0 30%;
+    text-align: right;
+    margin: 10%;
+    padding: 10%
+  }
+  
+  .page-section > div {
+    flex: 2 0 50%;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 20px;
+  }
+  
+  .pagesection div p {
+      font-size: 30px;
+      padding: 2% 0 0 2%
+  }
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 100px;
+}
+
+.flex-item {
+    border: 5px solid var(--tertiary);
+    background-color: var(--backgroundboxes);
+    color: var(--secondary);
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    transition: all 0.5s;
+    font-size: 20px;
+  }
+
+.myphoto {
+    height: 300px;
+    width: auto;
+    padding-left: 1%;
+    align-items: center;
+    margin-right: 20px;
+    padding-right: 5%
+}
+
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio div { 
+    margin: auto;
+    padding-left: 5%;
+    text-align: right
+}
+
+.contactinfo{
+    display: flex;
+    flex-direction: row;
+}
+.contactinfo div { 
+    margin: auto;
+    padding-left: 5%;
+    text-align: right
+}
