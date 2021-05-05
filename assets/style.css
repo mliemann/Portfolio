@@ -16,7 +16,8 @@ body{
     background-image: url(./img/borderimage.jpeg);
     margin: 0;
     padding: 0;
-    background-position: center;
+    background-position:bottom ;
+    background-size: cover;
 }
 
 header{
@@ -35,22 +36,25 @@ header h1 {
     margin-left: 10% ;
     padding: 1%;  
     text-align: center; 
-    lex: 0 0 78%;   
+    flex: 0 0 78%;   
 }
 
 header nav {
     font-weight: 500;
     font-size: 30px;
     color: var(--secondary);
-    margin-top: 5px ;
+    margin: auto ;
     padding: 1%; 
     background-color: var(--secondary);
     justify-content: center;
+    flex: 0 0 30%;
     
 
 }
 header nav ul{
     list-style-type: none;
+    margin: auto;
+    text-align: center;
 }
 
 header nav ul li {
@@ -91,13 +95,14 @@ header nav ul li {
 }
 
 .pagesection{
-  padding: 10px 0;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   width: 100%;
   min-height: 400px;
   align-items: center;
   margin: 0 1% 0 2%
+
 }
 .page-section > h2 {
     flex: 1 0 30%;
@@ -121,10 +126,14 @@ header nav ul li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 0 0 100px;
+    align-items: center;
+    flex: 0 0 75%;
+    margin-left: 2%;
+    padding: 3%;
 }
 
 .flex-item {
+    flex: 0 0 20%;
     border: 5px solid var(--tertiary);
     background-color: var(--backgroundboxes);
     color: var(--secondary);
@@ -132,12 +141,13 @@ header nav ul li {
     max-height: 150px;
     display: flex;
     align-items: center;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
+    flex: 1 0 33%;
+    justify-content: space-between;
     text-decoration: none;
     background-blend-mode: soft-light;
     transition: all 0.5s;
     font-size: 20px;
+    padding: 2%;
   }
 
 .myphoto {
@@ -155,18 +165,10 @@ header nav ul li {
     flex-direction: row;
 }
 
-.portfolio div { 
-    margin: auto;
-    padding-left: 5%;
-    text-align: right
-}
-
-.contactinfo{
+#contact div{
     display: flex;
-    flex-direction: row;
-}
-.contactinfo div { 
+    flex:  0 0 60%;
+    justify-content: center;
     margin: auto;
-    padding-left: 5%;
-    text-align: right
+
 }
