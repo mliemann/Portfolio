@@ -164,6 +164,11 @@ header nav ul li {
    
 }
 
+.flex-item:hover {
+    background-color: rgb(214, 214, 214);
+    background-blend-mode: soft-light;
+}
+
 
 .portfolio {
     display: flex;
@@ -202,6 +207,12 @@ header nav ul li {
     border-right: 1px solid black;
     padding: 1%;
 }
+
+.container1 address a:hover{
+    background-color: rgb(214, 214, 214);
+    background-blend-mode: soft-light;
+}
+
 
 @media screen and (max-width: 768px) {
     header {
