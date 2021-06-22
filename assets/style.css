@@ -260,8 +260,7 @@ header nav ul li {
    .background-wrap{
        width: 120%;
    }
-  }
-.center{
+   .center{
     text-align: center;
 }
 .pagesection{
@@ -273,6 +272,8 @@ header nav ul li {
     margin: auto;
     padding-left: 3%;
 }
+  }
+
 
 @media screen and (max-width: 375px) {
     *{
@@ -286,7 +287,7 @@ header nav ul li {
    .background-wrap{
        width: 150%;
    }
-  }
+ 
 .center{
     text-align: center;
 }
@@ -298,4 +299,5 @@ header nav ul li {
     justify-content: center;
     margin: auto;
     padding-left: 3%;
+}
 }
